@@ -39,7 +39,8 @@ const start = async () => {
     .on('guildCreate', handleGuildCreate)
     .on('guildDelete', handleGuildDelete)
     .on('ready', handleReady)
-    .on('channelDelete', handleChannelDelete);
+    .on('channelDelete', handleChannelDelete)
+    .on('debug', (msg) => log(`Discord debug: ${msg}`));
   // Login
   login();
 };
