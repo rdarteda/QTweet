@@ -334,7 +334,7 @@ delayed-stream@~1.0.0:
 
 discord.js@atomheartother/discord.js#master:
   version "12.5.0"
-  resolved "https://codeload.github.com/atomheartother/discord.js/tar.gz/f2d2f32bf8aea4122081fa8b682e4ff8dcdb0a06"
+  resolved "https://codeload.github.com/atomheartother/discord.js/tar.gz/774d9b843fb200cdd3b92a8bc4032c4d4d1a7eeb"
   dependencies:
     "@discordjs/collection" "^0.1.6"
     "@discordjs/form-data" "^3.0.1"
